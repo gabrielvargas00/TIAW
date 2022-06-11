@@ -6,38 +6,42 @@
     <title>Primeiros socorros</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style-home.css">
+    <script src="script-noticias.js"></script>
 </head>
 <body>
     <header class="container header">
-        <div class="row">
+       <div class="row">
             <div class="col-12 header_area">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-4 col-lg-2">
-                <img src="img/logo.png" class="logo">
-                    </div>
+                <img title="logo_imagem" src="img/logo.png" class="logo">
+                     </div>
+                     
                      <div class="col-12 col-sm-12 col-md-8 col-lg-10 menu_area">
-                    <nav class="nav nav-pills flex-column flex-sm-row">
-                      <a class="flex-sm-fill text-sm-center nav-link active" href="index-home.html">Home</a>
-                      <a class="flex-sm-fill text-sm-center nav-link" href="index-login.html">Login</a>
-                      <a class="flex-sm-fill text-sm-center nav-link" href="index-cadastro.html">Cadastro</a>
-                      <a class="flex-sm-fill text-sm-center nav-link" href="index-conteudo.html">Conteúdo</a>
-                    </nav>
+                <nav class="nav nav-pills flex-column flex-sm-row">
+                    <a class="flex-sm-fill text-sm-center nav-link active" href="index-home.html">Home</a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="index-login.html">Login</a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="index-cadastro.html">Cadastro</a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="index-conteudo.html">Conteúdo</a>
+                  </nav>
                 </div>
-            </div>
+    
+            </div> 
+            
         </div>
     </header>
     <main class="container main">
         <div class="row main">
             <div">
-                <img src="img/gif principal.gif" class="gif_main">
-                <img src="img/escrito.jpg" class="escrito_main">
+                <img title="principal_gif" src="img/gif principal.gif" class="gif_main">
+                <img title="escrito_gif"   src="img/escrito.jpg"       class="escrito_main">
             </div>
         </div>
         <div class="row cards">
             <div class="card mb-3" id="card1" style="max-width: 540px;">
                 <div class="row g-0">
                   <div class="col-md-4">
-                    <img src="img/engasgo.jpg" style: width="120%" id="img_engasgo">
+                    <img title="engasgo_imagem" src="img/engasgo.jpg" style="width: 125%"  id="img_engasgo">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body" id="subtitulo-alinhado">
@@ -52,7 +56,7 @@
               <div class="card mb-3" id="card2" style="max-width: 540px;">
                 <div class="row g-0">
                   <div class="col-md-4">
-                    <img src="img/queimadura.jpg" style: width="120%" id="img_queimadura">
+                    <img title="queimadura_imagem" src="img/queimadura.jpg" style="width: 125%"  id="img_queimadura">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body" id="subtitulo-alinhado">
@@ -65,33 +69,35 @@
               </div>
         </div>
 
-        
-  
+      <div class="noticias">
+        <h1>Notícias</h1>
+        <div id="lista-produtos"></div>
+      </div>
 
-        <div class="row">
-          <div class="col-sm-6" id="plano1">
-            <div class="card">
-              <div class="card-body" id="subtitulo-plano">
-                <h5 class="card-title" >Plano individual</h5>
-                <p class="card-text">Disponível para aqueles que tem contato com idosos/crianças no ambiente de trabalho ou em casa e desejam aprender mais sobre primeiros socorros. Essencial para pessoas que praticam trabalho voluntário, professores, cuidadores...</p>
-                
-                <img src="img/gif avo.gif" width="80%">
-                <a href="#" class="btn btn-dark" id="btn-plano1">Fazer cadastro</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6" id="plano2">
-            <div class="card">
-              <div class="card-body" id="subtitulo-plano">
-                <h5 class="card-title">Plano empresarial</h5>
-                <p class="card-text">Para empresas que desejam oferecer cursos profissionalizantes para seus funcionários, exceto os da área da saúde. Importante para ambientes vulneráveis a acidentes com crianças/idosos.</p>
-                <img src="img/gif prof.gif" width="80%">
-                <a href="#" class="btn btn-dark" id="btn-plano2" >Fazer cadastro</a>
-                
-              </div>
+      <div class="row">
+        <div class="col-sm-6" id="plano1">
+          <div class="card">
+            <div class="card-body" id="subtitulo-plano">
+              <h5 class="card-title" >Plano individual</h5>
+              <p class="card-text">Disponível para aqueles que tem contato com idosos/crianças no ambiente de trabalho ou em casa e desejam aprender mais sobre primeiros socorros.</p>
+              
+              <img src="img/gif avo.gif" width="80%">
+              <a href="#" class="btn btn-dark" id="btn-plano">Fazer cadastro</a>
             </div>
           </div>
         </div>
+        <div class="col-sm-6" id="plano2">
+          <div class="card">
+            <div class="card-body" id="subtitulo-plano">
+              <h5 class="card-title">Plano empresarial</h5>
+              <p class="card-text">Para empresas que desejam oferecer cursos profissionalizantes para seus funcionários, exceto os da área da saúde. Importante para ambientes vulneráveis a acidentes com crianças/idosos.</p>
+              <img src="img/gif prof.gif" width="80%">
+              <a href="#" class="btn btn-dark" id="btn-plano" >Fazer cadastro</a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
                                                                 
      <footer>
             <div class="row">
@@ -101,7 +107,21 @@
             </div>
           </footer>
 
+          <script>
+            var prods = '';
+            for (i=0; i < db.dados.length; i=i+1) {
+                prods += `<p
+                class="produto-item"><b>${i+1}.  ${ db.dados[i].titulo } - ${db.dados[i].datas}</b> <br> ${db.dados[i].corpo} <br>                       
+                  
+                  <div class="btn-group">
+                    <a href= "${db.dados[i].url}" type="button" class="btn btn-sm btn-outline-secondary" >Leia mais</a>
+                  </div>
+                
+                </p>`;
+            }
+            document.getElementById('lista-produtos').innerHTML = prods;
+        
+        </script>
 </body>
 
 </html>
-  

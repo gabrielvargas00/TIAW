@@ -19,7 +19,7 @@ var db_informacoes_iniciais = {
             email    : "tulioalves@email.com",
             site     : "https://bit.ly/infarto_site",
             videoaula: "https://www.youtube.com/embed/xqxHybHpoDY",
-            descricao: "Acesse os links disponídeis para prevenir e identificar o quadro de infarto"
+            descricao: "Acesse os links disponíveis para prevenir e identificar o quadro de infarto."
         },
         {
             id       : 3,
@@ -29,157 +29,87 @@ var db_informacoes_iniciais = {
             email    : "joaquimpereira@email.com",
             site     : "https://bit.ly/queda_site",
             videoaula: "https://www.youtube.com/embed/iUE0SaR8Dwo",
-            descricao: "Aprenda como proceder em caso de queda em casa"
+            descricao: "Aprenda como proceder em caso de queda em casa."
         },
         {
-            id       : 3,
+            id       : 4,
             acidente : "Choque",
             tipo     : 2,
             medico   : "Joana Fontes",
             email    : "joanafontes@email.com",
             site     : "https://bit.ly/choque_site",
             videoaula: "https://www.youtube.com/embed/lXsCD9dTr-E",
-            descricao: "O vídeo trata sobre como proceder após o engasgo."
+            descricao: "O vídeo trata sobre como proceder após choque elétrico."
         },
         {
-            id       : 4,
+            id       : 5,
             acidente : "Choque",
             tipo     : 2,
             medico   : "Joaquim Pereira",
             email    : "joaquimpereira@email.com",
             site     : "https://bit.ly/choque_site1",
             videoaula: "https://www.youtube.com/embed/duTAelb1E28",
-            descricao: "Aprenda como proceder em caso de intoxicação por alimentos"
-        },
-        {
-            id       : 4,
-            acidente : "Convulsão",
-            tipo     : 3,
-            medico   : "Carla Almeida",
-            email    : "carla@almeida.com",
-            site     : "https://bit.ly/engasgo_site",
-            videoaula: "https://www.youtube.com/embed/tC-OiNlHpcI",
-            descricao: "Os vídeos mostram manobras a serem realizadas em caso de convulsão"
-        },
-        {
-            id       : 5,
-            acidente : "Engasgo",
-            tipo     : 5,
-            medico   : "Carla Almeida",
-            email    : "carla@almeida.com",
-            site     : "https://bit.ly/engasgo_site",
-            videoaula: "https://www.youtube.com/embed/tC-OiNlHpcI",
-            descricao: "O vídeo trata sobre como proceder após o engasgo. O vídeo trata sobre como proceder após o engasgo. O vídeo trata sobre como proceder após o engasgo. O vídeo trata sobre como proceder após o engasgo"
-        },
-        {
-            id       : 2,
-            acidente : "AVC",
-            tipo     : 1,
-            medico   : "Ana da Silva",
-            email    : "anasilva@email.com",
-            site     : "https://www.tuasaude.com/primeiros-socorros-para-avc/",
-            videoaula: "https://www.youtube.com/embed/uHkpYIhSWb4",
-            descricao: "Acessando o site, você terá informações sobre o Acidente Vascular Cerebral (AVC)"
-        },
-        {
-            id       : 3,
-            acidente : "Queimadura",
-            tipo     : 1,
-            medico   : "Joana Fontes",
-            email    : "joanafontes15@email.com",
-            site     : "tratandoqueimadura.com",
-            videoaula: "videosmed.com/w6X8dko",
-            descricao: "Sabia que não pode passar qualquer produto em queimaduras? Compreenda o porquê"
-        },
-        {
-            id       : 4,
-            acidente : "Convulsão",
-            tipo     : 1,
-            medico   : "Carla Almeida",
-            email    : "carla@almeida.com",
-            site     : "oqueeconvulsao.ies.com.br",
-            videoaula: "videosmed.com/5sdfjbud",
-            descricao: "Como reverter um quadro de convulsão"
-        },
-        {
-            id       : 5,
-            acidente : "Intoxicação",
-            tipo     : 1,
-            medico   : "Joaquim Pereira",
-            email    : "jpdesouza@hospnew.com.br",
-            site     : "desentoxicando.unisp.com",
-            videoaula: "videosmed.com/Thf83x7",
-            descricao: "Aprenda como proceder em caso de intoxicação por alimentos"
+            descricao: "O vídeo trata sobre como proceder após choque elétrico."
         },
         {
             id       : 6,
-            acidente : "Engasgo",
-            tipo     : 5,
-            medico   : "Giovanne Castro",
-            email    : "giocc@split.com.br",
-            site     : "engasgo-como-tratar.vog.rb",
-            videoaula: "https://www.youtube.com/embed/5kyyABzEy_k",
-            descricao: "Aprenda procedimentos para realizar em caso de engasgo"
+            acidente : "Convulsão",
+            tipo     : 3,
+            medico   : "Ana da Silva",
+            email    : "anadasilva@email.com",
+            site     : "https://bit.ly/convulsao_site",
+            videoaula: "https://www.youtube.com/embed/bL9PROpCv9s",
+            descricao: "Os vídeos mostram manobras a serem realizadas em caso de convulsão."
         },
         {
             id       : 7,
             acidente : "Desmaio",
-            tipo     : 1,
-            medico   : "Pedro Marques",
-            email    : "pedrocam@latipsoh.com",
-            site     : "trate-desmaio.trya.pt",
-            videoaula: "videosmed.com/3vskW95a",
-            descricao: "Os vídeos mostram manobras a serem realizadas em caso de desmaio"
+            tipo     : 4,
+            medico   : "Giovanne Castro",
+            email    : "giovannecastro@email.com",
+            site     : "https://bit.ly/desmaio_site",
+            videoaula: "https://www.youtube.com/embed/nZGdJwuxRiE",
+            descricao: "Aprenda procedimentos para realizar em caso de desmaio."
         },
         {
             id       : 8,
-            acidente : "Infarto",
+            acidente : "AVC",
             tipo     : 1,
-            medico   : "Tulio Alves",
-            email    : "tulioalvesm@pcbiod.com",
-            site     : "previna-o-infarto.saudemed.com",
-            videoaula: "videosmed.com/12Jdpa5f",
-            descricao: "Acesse os links disponídeis para prevenir e identificar o quadro de infarto"
+            medico   : "Ana da Silva",
+            email    : "anasilva@email.com",
+            site     : "https://bit.ly/avc_site",
+            videoaula: "https://www.youtube.com/embed/uHkpYIhSWb4",
+            descricao: "Acessando o site, você terá informações sobre o Acidente Vascular Cerebral (AVC)"
         },
         {
             id       : 9,
-            acidente : "Fratura",
-            tipo     : 1,
-            medico   : "Tulio Alves",
-            email    : "tulioalvesm@pcbiod.com",
-            site     : "quebrou-ou-fraturou-?.sos.vrt",
-            videoaula: "videosmed.com/5yYhjs8",
-            descricao: "Compreenda a diferença entre os tipos de fratura"
+            acidente : "Engasgo",
+            tipo     : 5,
+            medico   : "Giovanne Castro",
+            email    : "giovannecastro@email.com",
+            site     : "https://bit.ly/engasgo_site1",
+            videoaula: "https://www.youtube.com/embed/5kyyABzEy_k",
+            descricao: "Aprenda procedimentos para realizar em caso de engasgo"
         },
         {
             id       : 10,
-            acidente : "Queda",
-            tipo     : 1,
-            medico   : "Joana Fontes",
-            email    : "joanafontes15@email.com",
-            site     : "quedasbruscar.save.br",
-            videoaula: "videosmed.com/5sd9SXlud",
-            descricao: "A importância de se aprender a previnir quedas"
+            acidente : "Fratura",
+            tipo     : 6,
+            medico   : "Tulio Alves",
+            email    : "tulioalves@email.com",
+            site     : "https://bit.ly/fratura_site",
+            videoaula: "https://www.youtube.com/embed/66L2rJ9S5nk",
+            descricao: "Aprenda como proceder em casos de fraturas"
         },
         {
             id       : 11,
-            acidente : "Convulsão",
-            tipo     : 1,
+            acidente : "Queimadura",
+            tipo     : 9,
             medico   : "Pedro Marques",
-            email    : "pedrocam@latipsoh",
-            site     : "www.convulsao.obr.l",
-            videoaula: "videosmed.com/62jsaiaQ",
-            descricao: "Os vídeos mostram manobras a serem realizadas em caso de convulsão"
-        },
-        {
-            id       : 12,
-            acidente : "Intoxicação",
-            tipo     : 2,
-            medico   : "Ana da Silva",
-            email    : "anasilva@email.com",
-            site     : "como-tratar-intoxicacao-alimentar.com",
-            videoaula: "videosmed.com/Ksmw89lp",
-            descricao: "Acessando o site, você terá informações sobre intoxicação por alimentos"
+            email    : "pedromarques@email.com",
+            site     : "https://bit.ly/queimadura_site",
+            videoaula: "https://www.youtube.com/embed/Eqh54bTu_P0",
+            descricao: "Sabia que não pode passar qualquer produto em queimaduras? Compreenda o porquê"
         }
     ]
 }
