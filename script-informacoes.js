@@ -59,7 +59,7 @@ var db_informacoes_iniciais = {
             email    : "anadasilva@email.com",
             site     : "https://bit.ly/convulsao_site",
             videoaula: "https://www.youtube.com/embed/bL9PROpCv9s",
-            descricao: "Os vídeos mostram manobras a serem realizadas em caso de convulsão."
+            descricao: "Os vídeos mostram manobras a serem realizadas em caso de crises convulsivas."
         },
         {
             id       : 7,
@@ -79,7 +79,7 @@ var db_informacoes_iniciais = {
             email    : "anasilva@email.com",
             site     : "https://bit.ly/avc_site",
             videoaula: "https://www.youtube.com/embed/uHkpYIhSWb4",
-            descricao: "Acessando o site, você terá informações sobre o Acidente Vascular Cerebral (AVC)"
+            descricao: "Acessando o site, você terá informações sobre o Acidente Vascular Cerebral (AVC)."
         },
         {
             id       : 9,
@@ -99,7 +99,7 @@ var db_informacoes_iniciais = {
             email    : "tulioalves@email.com",
             site     : "https://bit.ly/fratura_site",
             videoaula: "https://www.youtube.com/embed/66L2rJ9S5nk",
-            descricao: "Aprenda como proceder em casos de fraturas"
+            descricao: "Aprenda como proceder em casos de fraturas."
         },
         {
             id       : 11,
@@ -109,12 +109,70 @@ var db_informacoes_iniciais = {
             email    : "pedromarques@email.com",
             site     : "https://bit.ly/queimadura_site",
             videoaula: "https://www.youtube.com/embed/Eqh54bTu_P0",
-            descricao: "Sabia que não pode passar qualquer produto em queimaduras? Compreenda o porquê"
+            descricao: "Sabia que não pode passar qualquer produto em queimaduras? Compreenda o porquê."
+        },        
+        {
+            id       : 12,
+            acidente : "Queda",
+            tipo     : 8,
+            medico   : "Pedro Marques",
+            email    : "pedromarques@email.com",
+            site     : "https://bit.ly/queda_site1",
+            videoaula: "https://www.youtube.com/embed/KCotLUYIdF0",
+            descricao: "Aprenda como proceder em caso de queda em casa."
+        },
+        {
+            id       : 13,
+            acidente : "Convulsão",
+            tipo     : 3,
+            medico   : "Giovanne Castro",
+            email    : "giovannecastro@email.com",
+            site     : "https://bit.ly/engasgo_site1",
+            videoaula: "https://www.youtube.com/embed/wlRIoesIiv8",
+            descricao: "Aprenda procedimentos para realizar em caso de convulsão."
+        },
+        {
+            id       : 14,
+            acidente : "Fratura",
+            tipo     : 6,
+            medico   : "Joana Fontes",
+            email    : "joanafontes@email.com",
+            site     : "https://bit.ly/fratura_site1",
+            videoaula: "https://www.youtube.com/embed/VWJwSfOxZdE",
+            descricao: "Não se desespere! Saiba o que fazer em caso de fratura."
+        },
+        {
+            id       : 15,
+            acidente : "Engasgo",
+            tipo     : 5,
+            medico   : "Tulio Alves",
+            email    : "tulioalves@email.com",
+            site     : "https://bit.ly/engasgo_site3",
+            videoaula: "https://www.youtube.com/embed/FUEXLFbvAjY",
+            descricao: "Aprenda procedimentos para realizar em caso de engasgo."
+        },
+        {
+            id       : 16,
+            acidente : "Engasgo",
+            tipo     : 5,
+            medico   : "Sandra Rodrigues",
+            email    : "sandrarodriguess@email.com",
+            site     : "https://bit.ly/engasgo_site2",
+            videoaula: "",
+            descricao: "Aprenda procedimentos para realizar em caso de engasgo."
+        },
+        {
+            id       : 17,
+            acidente : "Queimadura",
+            tipo     : 9,
+            medico   : "Sandra Rodrigues",
+            email    : "sandrarodrigues@email.com",
+            site     : "https://bit.ly/queimadura_site1",
+            videoaula: "https://www.youtube.com/embed/wOM9tgiYPZs",
+            descricao: "Aprenda procedimentos para realizar em caso de queimadura."
         }
     ]
 }
-
-
 
 // Caso os dados já estejam no Local Storage; caso contrário, carrega os dados iniciais
 var db = JSON.parse(localStorage.getItem('db_informacao'));
@@ -135,6 +193,7 @@ function insertInformacao(informacao) {
 
 
     // Obtem numero do tipo de acordo com o acidente
+    // Tentar montar em switch ao inves de if / else
     let   novoTipo  = 0;
 
     if      ( informacao.acidente == "AVC"         ) novoTipo = 1;
